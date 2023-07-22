@@ -1,0 +1,165 @@
+body{
+    background-color:rgb(58, 58, 58);
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:#010305;
+    list-style-type: none;
+    padding: 10px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header ul{
+ padding: 0px;
+}
+
+header li{
+    display: inline;
+    margin: 15px;
+    font-family: "Helvetica";
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+
+header .logo{
+    background-image: url(image/logo.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999px;
+    position: relative;
+    top: -25px;
+    height: 60px;
+    width: 42px;
+}
+
+header a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+header a:hover{
+    color:#3E849E;
+    font-size: larger;
+    position: relative;
+}
+
+
+form{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section1{
+    background-image: url(image/room1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0E1E2B;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    border-bottom: 1px solid white;
+
+}
+
+.lowersection{
+    background-color: #3E849E;
+    padding-top: 100px;
+}
+
+.lowersection h1{
+    text-align: center;
+    font-family: "Helvetica";
+    margin: auto;
+}
+
+
+.lowersection article{
+    border: 0;
+    color:antiquewhite;
+    font-size: x-large;
+    font-family: "Helvetica";
+    text-align: center;
+    text-shadow:#0E1E2B 2px 2px 2px;
+    margin: 0;
+    outline: 0;
+    padding: 20px 200px 100px 200px;
+}
+
+.section2 {
+    background-color: #0E1E2B;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.section2 figure{
+    margin: auto;
+    padding: 10px;
+}
+
+.section2 img{
+    border-radius: 10px;
+    box-shadow: #0E1E2B 2px 2px 2px;
+    width: 400px;
+    height: 250px;
+}
+
+.section3{
+    background-color: #0E1E2B;
+    padding: 30px 50px 30px 50px;
+}
+
+.section3 ul li{
+    color: antiquewhite;
+    display: block;
+    text-align: center;
+    font-size:large;
+    font-family: "Helvetica";
+    text-shadow: #0E1E2B 2px 2px 2px;
+    padding: 10px;
+}
+
+.section3 ul li:hover{
+    background-color:#3E849E;
+    background-size: 5px;
+}
+
+footer{
+    background-color: #010305;;
+    color: aliceblue;
+    font-family: 'Helvetica';
+    padding: 30px;
+    margin: 0px 0px 0px 0px; 
+    height: 120px;
+    
+}
+
+footer li{
+    list-style-type: none;
+    margin: 15px;
+    font-family: "Helvetica";
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+   }
+
+footer a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+footer .info{
+    position: relative;
+    top: -130px;
+    left: 1550px;
+    margin: auto;
+}
+ 
+
