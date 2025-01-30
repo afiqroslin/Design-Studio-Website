@@ -111,7 +111,7 @@ form{
     background-color: #0E1E2B;
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 
 .section2 figure{
@@ -126,7 +126,7 @@ form{
     height: 250px;
 }
 
-.section3{
+/* .section3{
     background-color: #0E1E2B;
     padding: 30px 50px 30px 50px;
 }
@@ -139,12 +139,12 @@ form{
     font-family: "Helvetica";
     text-shadow: #0E1E2B 2px 2px 2px;
     padding: 10px;
-}
+} */
 
-.section3 ul li:hover{
+/* .section3 ul li:hover{
     background-color:#3E849E;
     background-size: 5px;
-}
+} */
 
 footer{
     background-color: #010305;;
